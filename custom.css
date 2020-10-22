@@ -1,0 +1,44 @@
+@import url('https://cdn.rawgit.com/innks/NanumSquareRound/master/nanumsquareround.min.css');
+
+* {
+    font-family: NanumSquareRound, sans-serif !important;
+}
+
+.text-muted,
+.status-header__label,
+.footer__copyright,
+.d-inline-block.mr-3 {
+    color: #8c8c8c !important;
+}
+
+.status-page {
+    background-color: #121212 !important;
+}
+
+.card-header {
+    background: #1a1b1e !important;
+    color: #ffffff !important;
+}
+
+.status-page__resources-card {
+    background-color: #1a1b1e !important;
+}
+
+.status-page__title {
+    color: #ffffff !important;
+}
+
+.card-body .d-flex.align-items-center {
+    color: #ffffff;
+}
+
+body>main>div>navbar>div>a {
+    background-color: #f8bbd0 !important;
+    border-color: #f8bbd0 !important;
+}
+
+.svg-logo {
+    background-color: #dfe0e1;
+    border-radius: 2rem;
+    padding: 8px 14px 8px 14px;
+}
