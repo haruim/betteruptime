@@ -23,7 +23,7 @@ const initPanels = () => {
             const date = text.split('<br/>')[0].replace(/\n/g, '').replace('  ', ' ').split(' ')
             if (!date[0].endsWith('년')) {
                 const newDate = date[2] + '년 ' + (months.indexOf(date[0]) + 1) + '월 ' + date[1].replace(',', '일')
-                let status = text[1]
+                let status = text.split('<br/>')[1]
                 if (status.includes('Down for')) {
                     status = status
                         .replace('Down for', '').replace('and ', '')
